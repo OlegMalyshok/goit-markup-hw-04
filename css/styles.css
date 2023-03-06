@@ -343,76 +343,23 @@ body {
   margin-top: 8px;
 }
 
-.instagram {
-  display: inline-block;
+.section-third-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d5ae5;
   width: 40px;
   height: 40px;
-  background-image: url(../images/instagram.svg);
-  background-color: #4d5ae5;
-  background-size: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
   border-radius: 50%;
 }
 
-.instagram:hover,
-.instagram:focus {
-  color: #ffffff;
+.section-third-link:hover,
+.section-third-link:focus {
   background-color: #404bbf;
 }
 
-.twitter {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-image: url(../images/twitter.svg);
-  background-color: #4d5ae5;
-  background-size: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.twitter:hover,
-.twitter:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-
-.facebook {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-image: url(../images/facebook.svg);
-  background-color: #4d5ae5;
-  background-size: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.facebook:hover,
-.facebook:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-
-.linkedin {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-image: url(../images/linkedin.svg);
-  background-color: #4d5ae5;
-  background-size: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.linkedin:hover,
-.linkedin:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+.st-icon {
+  fill: currentColor;
 }
 
 /* Section third */
@@ -421,8 +368,7 @@ body {
 .section-customers {
   padding: 130px 0 120px 0;
 }
-.customers-container {
-}
+
 .customers-tittle {
   font-weight: 700;
   font-size: 36px;
@@ -436,8 +382,7 @@ body {
   gap: 24px;
   margin: auto;
 }
-.list {
-}
+
 .customers-list-item {
   display: flex;
   align-items: center;
@@ -508,9 +453,6 @@ body {
   flex-direction: column;
 }
 
-.footer-social {
-}
-
 .footer-social-text {
   font-weight: 500;
   font-size: 16px;
@@ -528,67 +470,23 @@ body {
   gap: 16px;
 }
 
-.footer-instagram {
-  display: inline-block;
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
-  background-image: url(../images/instagram.svg);
   background-color: rgba(255, 255, 255, 0.1);
-  background-size: 24px;
-  background-repeat: no-repeat;
-  background-position: center;
   border-radius: 50%;
 }
 
-.footer-instagram:hover {
-  background-color: #31d0aa;
-}
-.footer-twitter {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-image: url(../images/twitter.svg);
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 24px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.footer-twitter:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: #31d0aa;
 }
 
-.footer-facebook {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-image: url(../images/facebook.svg);
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 24px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.footer-facebook:hover {
-  background-color: #31d0aa;
-}
-
-.footer-linkedin {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-image: url(../images/linkedin.svg);
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 24px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.footer-linkedin:hover {
-  background-color: #31d0aa;
+.footer-icon {
+  fill: currentColor;
 }
 
 /* footer */
@@ -634,6 +532,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border-color: #404bbf;
   color: #ffffff;
 }
 
@@ -659,6 +558,7 @@ body {
   flex-wrap: wrap;
   gap: 24px;
 }
+
 .portfolio-section-second-content {
   display: flex;
   flex-direction: column;
@@ -669,7 +569,12 @@ body {
   border-top: 0;
 }
 
-.portfolio-section-second-content:hover {
+.portfolio-section-second-link {
+  display: block;
+}
+
+.portfolio-section-second-link:hover,
+.portfolio-section-second-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
